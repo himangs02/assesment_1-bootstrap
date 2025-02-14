@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+   
+body {
+    font-family: 'Arial', sans-serif; 
+    color: #333;
+}
+
+
+.hero {
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+
+
+#about img {
+    max-width: 250px; 
+    border: 5px solid #eee; 
+}
+
+
+#portfolio .card {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+    transition: transform 0.2s ease-in-out; }
+
+#portfolio .card:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); }
+
+#portfolio .card-img-top {
+    border-radius: 0;}
+
+
+#contact a.btn-link {
+    color: #007bff; 
+    font-size: 1.5em; 
+    margin: 0 10px;
+}
+
+#contact a.btn-link:hover {
+    color: #0056b3; 
+}
+
+
+footer {
+    background-color: #343a40; }
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Hello, I'm HIMANGSHU</h1>
+            <p class="lead">FRONT-END DEVELOPER | GRAPHIC DESIGNER | Creative Thinker</p>
+            <a href="#portfolio" class="btn btn-light btn-lg">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="1737537916215.jpg" alt="Your Profile Picture" class="img-fluid rounded-circle mb-3">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p class="lead"></p>
+                    <p>Himangshu
+                        A highly motivated and enthusiastic first-year student at Geeta University, currently pursuing B.Tech in Computer Science (AI/ML). Possessing a strong foundation in programming, I am eager to learn and contribute to innovative projects. My current skillset includes proficiency in C, C++, JavaScript, HTML, and CSS. I am keen to expand my knowledge and explore new technologies while developing my skills in a practical setting. I am a quick learner, adaptable, and a dedicated team player. I am looking for opportunities to gain experience and apply my skills in real-world scenarios.
+                        </p>
+                    <p><strong>Skills:</strong> HTML, CSS, JavaScript, Bootstrap,PYTHON BASICS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://repository-images.githubusercontent.com/733114394/4906f47a-688b-4e98-8822-b9cad0c94859" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">STONE PAPER SCISSORS</h5>
+                            <p class="card-text">CREATED A GAME USING HTML , CSS AND JS </p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.lyHwqQ5L_fG4ZZ_eS_8YUQHaEt?w=258&h=180&c=7&r=0&o=5&pid=1.7" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">TIC TAK TOE </h5>
+                            <p class="card-text">A GAME MADE USING HTML, CSS AND BASIC JS .</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">CALCULATOR</h5>
+                            <p class="card-text">A CALCULATOR MADE USING HTML , CSS AND JS .</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center">Feel free to reach out if you have any questions or project opportunities.</p>
+                    <div class="text-center">
+                        <a href="mailto:2401301043@geetauniversity.edu.in" class="btn btn-outline-primary btn-lg">Email Me</a>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <a href="https://www.linkedin.com/in/himangshu-kumar-das-1349b6320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/himangs02" class="btn btn-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script> <script src="script.js"></script>
+
+</body>
+</html>
